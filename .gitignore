@@ -169,3 +169,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Data
+data/raw/*
+data/features/*
+data/submissions/*
+!data/raw/.gitkeep
+!data/features/.gitkeep
+!data/submissions/.gitkeep
