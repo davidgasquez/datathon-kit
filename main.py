@@ -1,6 +1,5 @@
-def main():
-    print("Hello from datathon-kit!")
+from src.datasets import load_dataset
 
+df = load_dataset()
 
-if __name__ == "__main__":
-    main()
+print(df)

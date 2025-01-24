@@ -112,7 +112,7 @@ wheels = [
 [[package]]
 name = "datathon-kit"
 version = "1.0.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "altair" },
     { name = "httpx" },
