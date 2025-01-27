@@ -1,4 +1,7 @@
+from pathlib import Path
+
 import polars as pl
+from sklearn.datasets import fetch_file  # type: ignore
 
 
 def load_dataset(dataset: str = "diamonds") -> pl.DataFrame:
@@ -11,10 +14,10 @@ def load_dataset(dataset: str = "diamonds") -> pl.DataFrame:
         pl.DataFrame: The loaded dataset
     """
 
-    # path = fetch_file(
-    #     f"https://huggingface.co/datasets/inria-soda/tabular-benchmark/resolve/main/reg_cat/{dataset}.csv",
-    #     folder="data/raw",
-    #     local_filename=f"{dataset}.csv",
-    # )
+    path = fetch_file(
+        f"https://huggingface.co/datasets/inria-soda/tabular-benchmark/resolve/main/reg_cat/{dataset}.csv",
+        folder=str(Path(__file__).parent.parent / "data/raw"),
+        local_filename=f"{dataset}.csv",
+    )
 
-    return pl.read_csv("../data/raw/diamonds.csv")
+    return pl.read_csv(path)
