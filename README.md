@@ -1,4 +1,4 @@
-# Datathon Kit
+# Datathon Kit ⚡
 
 A set of opinionated tools, code, and resources for Machine Learning projects, datathons, or ad-hoc competitions.
 
