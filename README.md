@@ -17,7 +17,7 @@ When starting to address a new problem, follow these steps for a solid foundatio
    - Keep track of the experiments and results.
 4. Design an evaluation method as close as the final evaluation.
    - Plot local evaluation metrics against the public ones (correlation) to validate how well your validation strategy works.
-5. Try different approaches for preprocessing (encodings, Deep Feature Synthesis, lags, aggregations, imputers, target/count encoding...).
+5. Try different approaches for preprocessing (encodings, Deep Feature Synthesis, lags, aggregations, imputers, target/count encoding, sin/cos encoding, ...).
    - If you're working as a group, split preprocessing feature generation between files.
 6. Apply any postprocessing that might fix small things.
    - Plot real and predicted target distribution to see how well your model understand the underlying distribution.
@@ -62,6 +62,7 @@ This repository is built on top of the following tools.
 - [Scikit-Learn Related Projects](https://scikit-learn.org/stable/related_projects.html).
 - [Contributions repository](https://github.com/scikit-learn-contrib)
 - [Awesome Scikit-Learn](https://github.com/fkromer/awesome-scikit-learn)
+- [TabPFN](https://github.com/PriorLabs/tabpfn) and [community](https://github.com/PriorLabs/tabpfn-community).
 
 ### 🐻‍❄️ Polars
 
@@ -83,6 +84,7 @@ This repository is built on top of the following tools.
 - [Tutorial Kaggle Notebook](https://www.kaggle.com/code/tumpanjawat/s3e19-course-eda-fe-lightgbm)
 - Think about adding external datasets like [related Google Trends search](https://trends.google.com/trends/), PiPy Packages downloads, [Statista](https://www.statista.com/), weather, ...
 - [TabPFN for time series](https://github.com/liam-sbhoo/tabpfn-time-series)
+- [Gradient Boosting for Survival Analysis](https://soda-inria.github.io/hazardous/)
 
 ### 🤖 AutoML
 
