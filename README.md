@@ -94,7 +94,7 @@ This repository is built on top of the following tools.
 ### 📊 Datathon Platforms
 
 - [Kaggle](https://www.kaggle.com/competitions)
-- [MLContest](https://mlcontests.com/). They also share a "State of Competitive Machine Learning" report every year ([2023](https://mlcontests.com/state-of-competitive-machine-learning-2023)) and summaries on the state of the art for ["Tabular Data"](https://mlcontests.com/tabular-data/).
+- [MLContest](https://mlcontests.com/). They also share a "State of Competitive Machine Learning" report every year ([2023](https://mlcontests.com/state-of-competitive-machine-learning-2023), [2024](https://mlcontests.com/state-of-machine-learning-competitions-2024/)) and summaries on the state of the art for ["Tabular Data"](https://mlcontests.com/tabular-data/).
 - [Humyn](https://app.humyn.ai/)
 - [DrivenData](https://www.drivendata.org/competitions/)
 - [Xeek](https://xeek.ai/challenges)
