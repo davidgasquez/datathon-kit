@@ -88,7 +88,7 @@ This repository is built on top of the following tools.
 
 ### 🤖 AutoML
 
-- Tabular: [AutoGluon](https://auto.gluon.ai/), [AutoSklearn](https://github.com/automl/auto-sklearn), Google AI Platform, [PyCaret](https://github.com/pycaret/pycaret), [Fast.ai](https://docs.fast.ai/), [TableVectorizer](https://skrub-data.org/stable/reference/generated/skrub.TableVectorizer.html#tablevectorizer).
+- Tabular: [AutoGluon](https://auto.gluon.ai/), [LightAutoML](https://github.com/sb-ai-lab/LightAutoML), [AutoSklearn](https://github.com/automl/auto-sklearn), Google AI Platform, [PyCaret](https://github.com/pycaret/pycaret), [Fast.ai](https://docs.fast.ai/), [TableVectorizer](https://skrub-data.org/stable/reference/generated/skrub.TableVectorizer.html#tablevectorizer).
 - Time Series: [AtsPy](https://github.com/firmai/atspy), [DeepAR](https://docs.aws.amazon.com/forecast/latest/dg/aws-forecast-recipe-deeparplus.html), [Nixtla's NBEATS](https://nixtlaverse.nixtla.io/neuralforecast/models.nbeats.html), [AutoTS](https://github.com/winedarksea/AutoTS).
 
 ### 📊 Datathon Platforms
