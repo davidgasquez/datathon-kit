@@ -79,6 +79,7 @@ This repository is built on top of the following tools.
 - [Functime](https://docs.functime.ai/)
 - [Pytimetk](https://github.com/business-science/pytimetk)
 - [Sktime](https://github.com/alan-turing-institute/sktime) / [Aeon](https://github.com/aeon-toolkit/aeon)
+- [skforecast](https://skforecast.org/)
 - [Awesome Collection](https://github.com/MaxBenChrist/awesome_time_series_in_python)
 - [Video with great ideas](https://www.youtube.com/watch?v=9QtL7m3YS9I)
 - [Tutorial Kaggle Notebook](https://www.kaggle.com/code/tumpanjawat/s3e19-course-eda-fe-lightgbm)
