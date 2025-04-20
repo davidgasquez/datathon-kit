@@ -1,6 +1,6 @@
 # Datathon Kit ⚡
 
-A set of opinionated tools, code, and resources for Machine Learning projects, datathons, or ad-hoc competitions.
+A set of opinionated tools, code, and resources for quick and dirty Machine Learning projects, datathons, or ad-hoc competitions.
 
 ## 🚀 Workflow
 
