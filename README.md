@@ -62,7 +62,6 @@ This repository is built on top of the following tools.
 - [Scikit-Learn Related Projects](https://scikit-learn.org/stable/related_projects.html).
 - [Contributions repository](https://github.com/scikit-learn-contrib)
 - [Awesome Scikit-Learn](https://github.com/fkromer/awesome-scikit-learn)
-- [TabPFN](https://github.com/PriorLabs/tabpfn) and [community](https://github.com/PriorLabs/tabpfn-community).
 
 ### 🐻‍❄️ Polars
 
@@ -89,7 +88,7 @@ This repository is built on top of the following tools.
 
 ### 🤖 AutoML
 
-- Tabular: [AutoGluon](https://auto.gluon.ai/), [LightAutoML](https://github.com/sb-ai-lab/LightAutoML), [AutoSklearn](https://github.com/automl/auto-sklearn), Google AI Platform, [PyCaret](https://github.com/pycaret/pycaret), [Fast.ai](https://docs.fast.ai/), [TableVectorizer](https://skrub-data.org/stable/reference/generated/skrub.TableVectorizer.html#tablevectorizer).
+- Tabular: [FLAML](https://github.com/microsoft/FLAML), [AutoGluon](https://auto.gluon.ai/), [Perpetual](https://github.com/perpetual-labs/perpetual), [LightAutoML](https://github.com/sb-ai-lab/LightAutoML), [AutoSklearn](https://github.com/automl/auto-sklearn), Google AI Platform, [PyCaret](https://github.com/pycaret/pycaret), [Fast.ai](https://docs.fast.ai/), [TableVectorizer](https://skrub-data.org/stable/reference/generated/skrub.TableVectorizer.html#tablevectorizer), [TabICL](https://github.com/soda-inria/tabicl), [TabPFN](https://github.com/PriorLabs/tabpfn) ([community](https://github.com/PriorLabs/tabpfn-community)).
 - Time Series: [AtsPy](https://github.com/firmai/atspy), [DeepAR](https://docs.aws.amazon.com/forecast/latest/dg/aws-forecast-recipe-deeparplus.html), [Nixtla's NBEATS](https://nixtlaverse.nixtla.io/neuralforecast/models.nbeats.html), [AutoTS](https://github.com/winedarksea/AutoTS).
 
 ### 📊 Datathon Platforms
