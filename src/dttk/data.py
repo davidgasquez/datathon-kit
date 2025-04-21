@@ -10,7 +10,11 @@ def load_credit_fraud_dataset() -> tuple[pl.DataFrame, pl.DataFrame]:
         tuple[pl.DataFrame, pl.DataFrame]: The Polars tables from the Skrub dataset.
     """
 
-    baskets = pl.from_pandas(skrub.datasets.fetch_credit_fraud().baskets)
-    products = pl.from_pandas(skrub.datasets.fetch_credit_fraud().products)
+    baskets = pl.from_pandas(
+        skrub.datasets.fetch_credit_fraud(data_home="/tmp").baskets
+    )
+    products = pl.from_pandas(
+        skrub.datasets.fetch_credit_fraud(data_home="/tmp").products
+    )
 
     return baskets, products
