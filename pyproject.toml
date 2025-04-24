@@ -1,6 +1,6 @@
 [project]
 name = "dttk"
-version = "0.0.1"
+version = "0.0.2"
 description = "A set of opinionated tools, code, and workflows for quick and dirty Machine Learning projects"
 readme = "README.md"
 authors = [{ name = "David Gasquez", email = "davidgasquez@gmail.com" }]
