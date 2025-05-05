@@ -1,6 +1,6 @@
 [project]
 name = "dttk"
-version = "0.0.2"
+version = "0.0.3"
 description = "A set of opinionated tools, code, and workflows for quick and dirty Machine Learning projects"
 readme = "README.md"
 authors = [{ name = "David Gasquez", email = "davidgasquez@gmail.com" }]
@@ -8,8 +8,8 @@ requires-python = ">=3.12"
 dependencies = [
     "altair>=5.5.0",
     "httpx>=0.28.1",
-    "polars>=1.27.1",
-    "pyarrow>=19.0.1",
+    "polars>=1.28.1",
+    "pyarrow>=20.0.0",
     "scikit-learn>=1.6.1",
     "skrub[transformers]>=0.5.3",
 ]
@@ -18,23 +18,21 @@ dependencies = [
 prerelease = "allow"
 index-strategy = "unsafe-best-match"
 
-[tool.uv.sources]
-torch = [{ index = "pytorch-rocm", marker = "sys_platform == 'linux'" }]
-torchvision = [{ index = "pytorch-rocm", marker = "sys_platform == 'linux'" }]
-
 [[tool.uv.index]]
 name = "pytorch-rocm"
 url = "https://download.pytorch.org/whl/nightly/rocm6.3"
 
 [dependency-groups]
 dev = [
-    "flaml[automl]>=2.3.4",
-    "ipykernel>=6.29.5",
-    "ruff>=0.11.6",
+    "flaml>=2.3.4",
+    "category-encoders>=2.8.1",
+    "ipykernel>=7.0.0a1",
+    "ruff>=0.11.7",
     "tabpfn>=2.0.8",
     "tabpfn-extensions>=0.0.4",
-    "torch>=2.6.0",
-    "torchvision>=0.21.0",
+    "torch>=2.8.0.dev20250426",
+    "torchvision>=0.22.0.dev20250427",
+    "feature-engine>=1.8.3",
 ]
 
 [build-system]

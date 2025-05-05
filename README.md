@@ -62,6 +62,7 @@ This repository is built on top of the following tools.
 - [Scikit-Learn Related Projects](https://scikit-learn.org/stable/related_projects.html).
 - [Contributions repository](https://github.com/scikit-learn-contrib)
 - [Awesome Scikit-Learn](https://github.com/fkromer/awesome-scikit-learn)
+- [Category Encoders](https://contrib.scikit-learn.org/category_encoders)
 
 ### 🐻‍❄️ Polars
 
