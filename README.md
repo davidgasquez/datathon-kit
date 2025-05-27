@@ -25,7 +25,7 @@ When starting to address a new problem, follow these steps for a solid foundatio
 7. Tune hyper-parameters once you've settled on an specific approach ([optuna](https://optuna.readthedocs.io/)).
    - Plot learning curves (with [sklearn](https://scikit-learn.org/stable/modules/learning_curve.html) or [external tools](https://github.com/reiinakano/scikit-plot)) to avoid overfitting.
 8. Plot and visualize the predictions (target vs predicted errors, histograms, random prediction, ...) to make sure they're doing as expected. Explain the predictions with [SHAP](https://github.com/slundberg/shap).
-9. If time allows, [stack](https://scikit-learn.org/stable/auto_examples/ensemble/plot_stack_predictors.html) models ([example](https://www.kaggle.com/couyang/featuretools-sklearn-pipeline#ML-Pipeline)) to improve performance.
+9. If time allows, [build diverse models](https://www.kaggle.com/competitions/playground-series-s5e4/discussion/575784). [Stack](https://scikit-learn.org/stable/auto_examples/ensemble/plot_stack_predictors.html) models ([example](https://www.kaggle.com/couyang/featuretools-sklearn-pipeline#ML-Pipeline)) to improve performance. You can use [Hill Climbing](https://www.kaggle.com/competitions/playground-series-s5e4/discussion/575784) algorithms.
 10. Iterate. Try to keep performance in mind so you can make the best use of your time.
 
 ## 🛠️ Toolkit
