@@ -177,3 +177,6 @@ data/submissions/*
 !data/raw/.gitkeep
 !data/features/.gitkeep
 !data/submissions/.gitkeep
+
+# Autogluon
+AutogluonModels/
