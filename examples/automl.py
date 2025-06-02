@@ -1,9 +1,8 @@
-import pandas as pd
 from autogluon.tabular import TabularDataset, TabularPredictor
 
 # Load data
 data_url = "https://raw.githubusercontent.com/mli/ag-docs/main/knot_theory/"
-train_data: pd.DataFrame = TabularDataset(f"{data_url}train.csv")
+train_data = TabularDataset(f"{data_url}train.csv")
 
 # Train model
 label = "signature"

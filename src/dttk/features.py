@@ -6,7 +6,7 @@ def target_encoding(
     target: str,
     column: str,
     alpha: float = 0.0,
-    stats: list[str] = ["mean", "min", "max", "std", "count", "q25", "q50", "q75"],
+    stats: list[str] | None = None,
 ) -> pl.DataFrame:
     """Perform target encoding on a categorical column with smoothing support.
 
@@ -27,6 +27,9 @@ def target_encoding(
         ... })
         >>> target_encoding(df, "target", "category", alpha=0.1)
     """
+
+    if stats is None:
+        stats = ["mean", "min", "max", "std", "count", "q25", "q50", "q75"]
 
     supported_stats = {
         "mean": pl.col(target).mean(),
@@ -62,7 +65,7 @@ def target_encoding(
         if "mean" not in stats:
             raise ValueError("Smoothing requires 'mean' to be in stats")
 
-        global_mean = df.select(pl.mean(target)).item()
+        global_mean = df.select(pl.col(target).mean()).item()
         smoothed_mean = (
             pl.col(f"{column}_{target}_mean") * (1 - alpha) + global_mean * alpha
         )
