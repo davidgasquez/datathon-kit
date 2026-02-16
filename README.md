@@ -57,6 +57,7 @@ This repository is built on top of the following tools.
 
 - [LEGO](https://github.com/koaning/scikit-lego)
 - [Skrub](https://github.com/skrub-data/skrub)
+- [Tubular](https://github.com/azukds/tubular)
 - [Skoot](https://github.com/tgsmith61591/skoot)
 - [Sktools](https://github.com/david26694/sktools)
 - [Scikit-Learn Related Projects](https://scikit-learn.org/stable/related_projects.html).
